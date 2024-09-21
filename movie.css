@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+.logo{
+    padding-top: 40px;
+}
+.poster a{
+   margin: 100px 0 0 200px;
+   width: 70%;
+   height: 450px;
+   justify-content: center; 
+}
+.poster img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease-in-out 0.5s;
+}
+.poster img:hover{
+    width: 25%;
+}
